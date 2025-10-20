@@ -1,3 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints
+
+# Distributed / packaging
+build/
+dist/
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Data / models
+pretrained_models/
+*.pt
+*.pth
+*.ckpt
+
+# Large files handled by Git LFS
+*.wav
+*.flac
+*.mp4
+
+# Mac
+.DS_Store
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
